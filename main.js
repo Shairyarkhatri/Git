@@ -7,4 +7,11 @@ fetch(`https://${process.env.DATABASE_URL}`, {
 
 asdasd
 
-sdasda
+fetch(`https://${process.env.DATABASE_URL}`, {
+    method: "post",
+    headers: {
+        apikey: "123123123123"
+    },
+})
+
+asdasd
